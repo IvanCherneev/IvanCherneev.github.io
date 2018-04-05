@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Портфолио</title>
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:500" rel="stylesheet">
 	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -13,51 +14,89 @@
 			<!-- Header страницы -->
 			<header class="header">
 				<div class="container">
-					<div class="header__block-img">
-						<img src="images/logo.png" class="header__img" alt="Галерея работ">
-					</div>
-					<h1 class="header__title">Галерея моих работ</h1>
+					<h1 class="header__title">Чернеев Иван</h1>
+					<h2 class="header__sub-title">web-портфолио</h2>
+					<p class="header__desc">
+						Добро пожаловать! На этой странице представлены сверстанные мной работы.
+					</p>
 				</div>
 			</header>
 			
-			<!-- Content страницы -->
+			<!-- Секция с работами -->
 			<main class="content">
 				<div class="container">
-					<div class="content__block">
-						<div class="work">
-							<a href="proj1/index.html" class="work__link">
-								<img src="images/work1.jpg" alt="Работа1" class="work__img">
-							</a>
-						</div>
-						<div class="work">
-							<a href="proj2/index.html" class="work__link">
-								<img src="images/work2.jpg" alt="Работа2" class="work__img">
-							</a>
-						</div>
-						<div class="work">
-							<a href="proj3/index.html" class="work__link">
-								<img src="images/work3.jpg" alt="Работа3" class="work__img">
-							</a>
-						</div>
-						<div class="work">
-							<a href="#" class="work__link">
-								<img src="images/work0.png" alt="Работа4" class="work__img">
-							</a>
-						</div>
-						<div class="work">
-							<a href="#" class="work__link">
-								<img src="images/work0.png" alt="Работа5" class="work__img">
-							</a>
-						</div>
-						<div class="work">
-							<a href="#" class="work__link">
-								<img src="images/work0.png" alt="Работа6" class="work__img">
-							</a>
-						</div>
-					</div>
+					<h2 class="content__title">Мои работы</h2>
+					<ul class="content__list">
+						<li class="content__item">
+							<figure class="content__img-box">
+								<a href="proj1/index.html" class="content__link">
+									<img src="images/work1.jpg" alt="Работа1" class="content__img">
+								</a>
+								<figcaption class="content__img-desc">
+									<p class="content__img-name">Acrostia</p>
+									<p class="content__img-data">Сентябрь 2017</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li class="content__item">
+							<figure class="content__img-box">
+								<a href="proj2/index.html" class="content__link">
+									<img src="images/work2.jpg" alt="Работа2" class="content__img">
+								</a>
+								<figcaption class="content__img-desc">
+									<p class="content__img-name">Spirit8</p>
+									<p class="content__img-data">Октябрь 2017</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li class="content__item">
+							<figure class="content__img-box">
+								<a href="proj3/index.html" class="content__link">
+									<img src="images/work3.jpg" alt="Работа3" class="content__img">
+								</a>
+								<figcaption class="content__img-desc">
+									<p class="content__img-name">Safari Tours</p>
+									<p class="content__img-data">Ноябрь 2017</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li class="content__item">
+							<figure class="content__img-box">
+								<a href="proj4/index.html" class="content__link">
+									<img src="images/work0.png" alt="Работа0" class="content__img">
+								</a>
+								<figcaption class="content__img-desc">
+									<p class="content__img-name">#</p>
+									<p class="content__img-data">#</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li class="content__item">
+							<figure class="content__img-box">
+								<a href="proj5/index.html" class="content__link">
+									<img src="images/work0.png" alt="Работа0" class="content__img">
+								</a>
+								<figcaption class="content__img-desc">
+									<p class="content__img-name">#</p>
+									<p class="content__img-data">#</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li class="content__item">
+							<figure class="content__img-box">
+								<a href="proj6/index.html" class="content__link">
+									<img src="images/work0.png" alt="Работа0" class="content__img">
+								</a>
+								<figcaption class="content__img-desc">
+									<p class="content__img-name">#</p>
+									<p class="content__img-data">#</p>
+								</figcaption>
+							</figure>
+						</li>
+					</ul>	
 				</div>
 			</main>
-			
+
 		</div> <!-- maincontent -->
 	</div> <!-- wrapper -->
 	
@@ -65,7 +104,7 @@
 	<footer class="footer">
 		<div class="container">
 			<p class="footer__copyright">
-				&copy; 2017 Чернеев Иван
+				&copy; 2017-2018 Чернеев Иван - <span>mymail@mydomain.com</span>
 			</p>
 		</div>
 	</footer>
