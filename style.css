@@ -234,3 +234,36 @@ img {
 	color: #ea9f3e;
 }
 
+
+/*
+************* Медиа запросы ****************
+*/
+
+@media screen and (max-width: 992px) {
+
+	.content__img-box {
+		width: 220px;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+
+	.content__img-box {
+		width: 250px;
+	}
+
+	.content__item:nth-child(3),
+	.content__item:nth-child(5) {
+		margin-left: 0;
+	}
+
+	.content__item:nth-child(4) {
+		margin-left: 24px;
+	}
+}
+
+@media screen and (max-width: 582px) {
+	.content__item {
+		margin-left: 0 !important;
+	}
+}
